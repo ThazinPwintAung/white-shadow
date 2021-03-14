@@ -1,0 +1,14 @@
+*[class*="Page"] {
+  animation: slideup 250ms ease-out;
+}
+
+@keyframes slideup {
+  0% {
+    transform: translate(0, 64px);
+    opacity: 0.2;
+  }
+  100% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
